@@ -92,7 +92,10 @@ h3 {
   height: 100vh;
   padding-top: 100px;
   margin-bottom: 10vh;
+  background-image: url(/img/bg.avif);
   background-color: #ffb338;
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .decor_hero_top {
@@ -147,11 +150,13 @@ h3 {
 .who {
   padding-top: 12vw;
   padding-bottom: 126px;
-  /* background-image: url('../img/about_bg.png'); */
-  background-size: 100% auto;
+  background-image: url(/img/bg2.avif);
+
+  background-blend-mode: multiply;
+  background-size: cover;
+
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-color: #b81e13;
 }
 .who__descr {
   max-width: 650px;
@@ -167,7 +172,10 @@ h3 {
   background-size: 100% auto;
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-color: #f8a01f;
+
+  background-color: #ffb338;
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 .tokenomics h2 {
   margin-bottom: 42px;
