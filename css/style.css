@@ -269,7 +269,12 @@ h3 {
   color: var(--c-footer);
   background-color: var(--c-body-reverse);
 }
-
+.box img {
+  width: 400px;
+  height: 346px;
+  margin: 15px;
+  border-radius: 15px;
+}
 @media screen and (max-width: 768px) {
   .partners {
     display: none;
